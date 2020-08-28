@@ -12,9 +12,11 @@ body{
   place-items: center;
 }
 header{
+  border: 1px solid color(bd-elmtPPL);
 
 }
 /* CLASSES PRINCIPALES */
 .main-container{
   max-width: value(width-container);
 }
+

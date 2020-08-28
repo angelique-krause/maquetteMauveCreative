@@ -5,6 +5,10 @@ body {
   place-items: center;
 }
 
+header {
+  border: 1px solid #27CC81;
+}
+
 /* CLASSES PRINCIPALES */
 .main-container {
   max-width: 1200px;
