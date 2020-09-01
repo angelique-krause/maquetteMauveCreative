@@ -1,0 +1,30 @@
+/* BALISES GENERALES */
+html{
+  font-size: 62.5%;
+
+}
+
+body{
+  background-color: color(bg-main);
+  /*
+  display: grid;
+  place-items: center;
+  */
+  /*
+  color :
+  font-family:
+  font-size:
+  font-weight:
+  */
+
+}
+
+header{
+  border: 1px solid color(bd-elmtPPL);
+
+}
+
+/* CLASSES PRINCIPALES */
+.main-container{
+  max-width: value(width-container);
+}

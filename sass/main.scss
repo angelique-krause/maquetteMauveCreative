@@ -1,22 +1,25 @@
 // Ceci est un début de code, vous pouvez vous en inspirez pour commencer ou bien repartir à zéro!
 
 // Import des variables et fonctions nécessaires
+@charset 'utf-8'; //permet de FORCER l'encodage des caractères spéciaux comme le é à etc. => sassGuideLine
+
+/* +++++++++++++++++++++++++ */
+    /* STYLES GENERAUX */
+/* +++++++++++++++++++++++++ */
+
+// Il faut LIER les fichiers et dossiers css au fichier principal main.scss via les IMPORTS
+
+// ORDRE des fichiers : VARIABLES, reset,functions, base, layout, modules (ou pages), autres ...
 
 @import 'components/variables';
+@import 'components/reset';
 @import 'components/functions';
+@import 'components/bases';
 
-/* BALISES GENERALES */
-body{
-  background-color: color(bg-main);
-  display: grid;
-  place-items: center;
-}
-header{
-  border: 1px solid color(bd-elmtPPL);
+@import 'modules/article1';
+@import 'modules/aside';
+@import 'modules/blog';
+@import 'modules/footer';
+@import 'modules/header';
 
-}
-/* CLASSES PRINCIPALES */
-.main-container{
-  max-width: value(width-container);
-}
 
