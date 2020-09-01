@@ -9,6 +9,7 @@
     propriétés déjà définie dans bases et grid
   }
   */
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display&family=Vampiro+One&display=swap");
 *, *:before, *:after {
   box-sizing: border-box;
 }
