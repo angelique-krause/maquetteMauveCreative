@@ -12,6 +12,8 @@
   justify-content: space-between;
   border: 1px solid yellow;
   height: 65%;
+  margin-top: 2rem;
+  padding-top: 1rem;
 }
 h1{
   font-family: font(logo);
@@ -34,9 +36,20 @@ h1{
 // deuxième DIV
 .menu-ppl{
   max-height: 40%;
+  margin-top: 5rem;
+  border-bottom: 5px solid white;
 }
 .menu-ppl nav ul{
   display:flex;
   justify-content: center;
+
+}
+.menu-ppl nav ul li{
+  padding: 1rem;
+
+}
+.menu-ppl nav ul li a{
+  text-decoration: none;
+  color: color(txt-ppl);
 
 }
