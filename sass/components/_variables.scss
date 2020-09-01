@@ -2,8 +2,10 @@ $colors:(
   'bg-main':#33264E,
   'bg-footer': #362953,
   'bg-elmt': #dfdfdf,
+  'bg-elmt1': gray,
 
   'txt-ppl': #fff,
+  'txt-second': #000,
 
   'link-important': #EE3E52,
 
@@ -21,14 +23,15 @@ $colors:(
   'resSoc3': #D62976,
   'resSoc4': #EE3E52,
 
-  'bd-elmtPPL': #27CC81,
+  'bd-elmtPpl': #27CC81,
   'bd-elmtSecond': orange,
-  'bd-elmtTer': gray
+  'bd-elmtTer': tomato
 
 );
 
 $values:(
   'width-container': 120rem,
+  'hight-header':36rem,
   'width-carroussel': 160rem,
   'height-carroussel': 48rem,
   'articles-container': 80rem,
@@ -39,9 +42,15 @@ $values:(
 
 );
 
-
+/* IL S'AGIT d'un OBJET et on va donc préfixer à # */
 $fonts:(
-  logo: "'Vampiro One', cursive",
-  title: "'Playfair Display', serif",
-  text: "'Mulish', sans-serif"
+  logo: #{
+    "Vampiro One", cursive
+  },
+  title: #{
+    "Playfair Display", serif
+  },
+  text:#{
+    "Mulish", sans-serif
+  }
 );

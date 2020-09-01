@@ -2,6 +2,7 @@
 /* +++++++++++++++++++++++++ */
 /* STYLES GENERAUX */
 /* +++++++++++++++++++++++++ */
+/* IL S'AGIT d'un OBJET et on va donc préfixer à # */
 /*  -- alligator.io/css/minimal-css-reset/  --  */
 /*html {
 
@@ -40,7 +41,7 @@ body {
   place-items: center;
   background-color: #33264E;
   color: #fff;
-  font-family: "'Mulish', sans-serif";
+  font-family: Mulish, sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
 }
@@ -57,8 +58,54 @@ header {
   border: #27CC81;
 }
 
+/* ICI commence le code SCSS pour le HEADER main-header */
+.main-header {
+  height: 36rem;
+  background-color: gray;
+  border: 3px solid #27CC81;
+}
+
+.headerLink {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid yellow;
+  height: 65%;
+}
+
+h1 {
+  font-family: Vampiro One, cursive;
+  color: inherit;
+  background-color: inherit;
+}
+
+.icon {
+  max-height: 14%;
+}
+
+.social {
+  max-width: 30%;
+}
+
+.title {
+  max-width: 30%;
+}
+
+.reseach {
+  text-align: right;
+  max-width: 30%;
+}
+
+.menu-ppl {
+  max-height: 40%;
+}
+
+.menu-ppl nav ul {
+  display: flex;
+  justify-content: center;
+}
+
 .essaiCouleur {
-  font-family: "'Mulish', sans-serif";
+  font-family: Mulish, sans-serif;
   color: #507CBE;
 }
 

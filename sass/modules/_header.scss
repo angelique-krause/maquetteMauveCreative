@@ -1,0 +1,43 @@
+/* ICI commence le code SCSS pour le HEADER main-header */
+
+.main-header{
+
+  height: value(hight-header);
+  background-color: color(bg-elmt1);
+  border: 3px solid color(bd-elmtPpl);
+}
+//première DIV
+.headerLink{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid yellow;
+  height: 65%;
+}
+h1{
+  font-family: font(logo);
+
+  color: inherit;
+  background-color: inherit;
+}
+.icon{
+  max-height: 14%;
+}
+.social{
+  max-width: 30%;
+}
+.title{
+  max-width: 30%;
+}
+.reseach{
+  text-align: right;
+  max-width: 30%;
+}
+// deuxième DIV
+.menu-ppl{
+  max-height: 40%;
+}
+.menu-ppl nav ul{
+  display:flex;
+  justify-content: center;
+
+}
