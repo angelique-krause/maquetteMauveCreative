@@ -1,7 +1,14 @@
 @function color($color-name){
   @return map-get($colors, $color-name)
 };
+
 @function value($value-name){
   @return map-get($values, $value-name)
 };
+
+/*
+@function police($police-name){
+  @return map-get($polices, $value-police,$default-police)
+}
+*/
 

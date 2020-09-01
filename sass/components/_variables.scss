@@ -15,10 +15,28 @@ $colors:(
   resSoc4: #EE3E52,
 
   bd-elmtPPL: #27CC81,
+  bd-elmtSecond: orange,
   bg-elmt: #dfdfdf
 
 );
 
 $values:(
-  width-container: 1200px,
-)
+  width-container: 120rem,
+  width-carroussel: 160rem,
+  height-carroussel: 48rem,
+  articles-container: 80rem,
+  width-article: 80rem,
+  height-article: 15rem,
+  width-image-article: 78.6rem,
+  height-image-article: 49.1rem
+
+);
+
+/*
+$fonts:(
+  logo: 'Vampiro One', cursive:
+  title: 'Playfair Display', serif,
+  text: 'Mulish', sans-serif,
+
+);
+*/

@@ -2,6 +2,14 @@
 /* +++++++++++++++++++++++++ */
 /* STYLES GENERAUX */
 /* +++++++++++++++++++++++++ */
+/*
+$fonts:(
+  logo: 'Vampiro One', cursive:
+  title: 'Playfair Display', serif,
+  text: 'Mulish', sans-serif,
+
+);
+*/
 /*  -- alligator.io/css/minimal-css-reset/  --  */
 /*html {
 
@@ -28,6 +36,11 @@ img {
   height: auto;
 }
 
+/*
+@function police($police-name){
+  @return map-get($polices, $value-police,$default-police)
+}
+*/
 /* BALISES GENERALES */
 html {
   font-size: 62.5%;
@@ -35,10 +48,6 @@ html {
 
 body {
   background-color: #33264E;
-  /*
-  display: grid;
-  place-items: center;
-  */
   /*
   color :
   font-family:
@@ -53,7 +62,14 @@ header {
 
 /* CLASSES PRINCIPALES */
 .main-container {
-  max-width: 1200px;
+  display: grid;
+  place-items: center;
+  max-width: 120rem;
+}
+
+.essaiCouleur {
+  font-family: font(text);
+  color: #507CBE;
 }
 
 /*# sourceMappingURL=main.css.map */

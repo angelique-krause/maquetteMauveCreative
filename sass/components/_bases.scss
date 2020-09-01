@@ -6,10 +6,9 @@ html{
 
 body{
   background-color: color(bg-main);
-  /*
-  display: grid;
-  place-items: center;
-  */
+
+
+
   /*
   color :
   font-family:
@@ -26,5 +25,7 @@ header{
 
 /* CLASSES PRINCIPALES */
 .main-container{
+  display: grid;
+  place-items: center;
   max-width: value(width-container);
 }
