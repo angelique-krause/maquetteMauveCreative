@@ -6,9 +6,8 @@
   @return map-get($values, $value-name)
 };
 
-/*
-@function police($police-name){
-  @return map-get($polices, $value-police,$default-police)
+@function font( $font-name){
+  @return map-get($fonts, $font-name)
 }
-*/
+
 

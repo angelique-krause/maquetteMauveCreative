@@ -1,75 +1,17 @@
-@charset "UTF-8";
-/* +++++++++++++++++++++++++ */
-/* STYLES GENERAUX */
-/* +++++++++++++++++++++++++ */
-/*
-$fonts:(
-  logo: 'Vampiro One', cursive:
-  title: 'Playfair Display', serif,
-  text: 'Mulish', sans-serif,
+/* Error: expected more input.
+ *    ,
+ * 28 | @import
+ *    |        ^
+ *    '
+ *   sass\main.scss 28:8  root stylesheet */
 
-);
-*/
-/*  -- alligator.io/css/minimal-css-reset/  --  */
-/*html {
-
-    font-size: 16px;
-    propriétés déjà définie dans bases et grid
-  }
-  */
-*, *:before, *:after {
-  box-sizing: border-box;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: expected more input.\a    \2577 \a 28 \2502  @import\d\a    \2502         ^\a    \2575 \a   sass\\main.scss 28:8  root stylesheet";
 }
-
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-  margin: 0;
-  padding: 0;
-  font-weight: normal;
-}
-
-ol, ul {
-  list-style: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/*
-@function police($police-name){
-  @return map-get($polices, $value-police,$default-police)
-}
-*/
-/* BALISES GENERALES */
-html {
-  font-size: 62.5%;
-}
-
-body {
-  background-color: #33264E;
-  /*
-  color :
-  font-family:
-  font-size:
-  font-weight:
-  */
-}
-
-header {
-  border: 1px solid #27CC81;
-}
-
-/* CLASSES PRINCIPALES */
-.main-container {
-  display: grid;
-  place-items: center;
-  max-width: 120rem;
-}
-
-.essaiCouleur {
-  font-family: font(text);
-  color: #507CBE;
-}
-
-/*# sourceMappingURL=main.css.map */
