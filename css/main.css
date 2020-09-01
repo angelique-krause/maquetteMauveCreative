@@ -1,18 +1,65 @@
-/* Error: expected ")".
- *   ,
- * 6 |   txt-ppl: #fff;
- *   |                ^
- *   '
- *   sass\components\_variables.scss 6:16  @import
- *   sass\main.scss 14:9                   root stylesheet */
+@charset "UTF-8";
+/* +++++++++++++++++++++++++ */
+/* STYLES GENERAUX */
+/* +++++++++++++++++++++++++ */
+/*  -- alligator.io/css/minimal-css-reset/  --  */
+/*html {
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected ")".\a   \2577 \a 6 \2502    txt-ppl: #fff;\d\a   \2502                 ^\a   \2575 \a   sass\\components\\_variables.scss 6:16  @import\a   sass\\main.scss 14:9                   root stylesheet';
+    font-size: 16px;
+    propriétés déjà définie dans bases et grid
+  }
+  */
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display&family=Vampiro+One&display=swap");
+*, *:before, *:after {
+  box-sizing: border-box;
 }
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* BALISES GENERALES */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  /* Jeremy a CENTRE la présentation de la MAWUETTE grâce au display grid et au place-items center */
+  display: grid;
+  place-items: center;
+  background-color: #33264E;
+  color: #fff;
+  font-family: "'Mulish' sans-serif";
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+header {
+  border: 1px solid #27CC81;
+}
+
+/* CLASSES PRINCIPALES */
+.main-container {
+  display: grid;
+  place-items: center;
+  max-width: 120rem;
+  border: #27CC81;
+}
+
+.essaiCouleur {
+  font-family: "'Mulish' sans-serif";
+  color: #507CBE;
+}
+
+/*# sourceMappingURL=main.css.map */

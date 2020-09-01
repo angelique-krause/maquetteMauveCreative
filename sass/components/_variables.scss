@@ -1,40 +1,41 @@
 $colors:(
-  bg-main:#33264E,
-  bg-footer: #362953,
-  bg-elmt: #dfdfdf,
+  'bg-main':#33264E,
+  'bg-footer': #362953,
+  'bg-elmt': #dfdfdf,
 
-  txt-ppl: #fff;
+  'txt-ppl': #fff,
 
-  link-important: #EE3E52,
+  'link-important': #EE3E52,
 
-  but1: #FF6071,
-  but2: #FF7E8E,
+  'but1': #FF6071,
+  'but2': #FF7E8E,
 
-  cat1: #673AB7,
-  cat2: #1E88E5,
-  cat3: #27CC81,
-  cat4: #38C4D1,
-  cat5: #E91E63,
+  'cat1': #673AB7,
+  'cat2': #1E88E5,
+  'cat3': #27CC81,
+  'cat4': #38C4D1,
+  'cat5': #E91E63,
 
-  resSoc1: #63CDF1,
-  resSoc2: #507CBE,
-  resSoc3: #D62976,
-  resSoc4: #EE3E52,
+  'resSoc1': #63CDF1,
+  'resSoc2': #507CBE,
+  'resSoc3': #D62976,
+  'resSoc4': #EE3E52,
 
-  bd-elmtPPL: #27CC81,
-  bd-elmtSecond: orange,
+  'bd-elmtPPL': #27CC81,
+  'bd-elmtSecond': orange,
+  'bd-elmtTer': gray
 
 );
 
 $values:(
-  width-container: 120rem,
-  width-carroussel: 160rem,
-  height-carroussel: 48rem,
-  articles-container: 80rem,
-  width-article: 80rem,
-  height-article: 15rem,
-  width-image-article: 78.6rem,
-  height-image-article: 49.1rem
+  'width-container': 120rem,
+  'width-carroussel': 160rem,
+  'height-carroussel': 48rem,
+  'articles-container': 80rem,
+  'width-article': 80rem,
+  'height-article': 15rem,
+  'width-image-article': 78.6rem,
+  'height-image-article': 49.1rem
 
 );
 

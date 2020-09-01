@@ -5,16 +5,16 @@ html{
 }
 
 body{
+/* Jeremy a CENTRE la présentation de la MAWUETTE grâce au display grid et au place-items center */
+  display: grid;
+  place-items: center;
+
   background-color: color(bg-main);
+  color: color(txt-ppl);
+  font-family: font(text);
+  font-size: 1.4rem;
+  font-weight: 400;
 
-
-
-  /*
-  color :
-  font-family:
-  font-size:
-  font-weight:
-  */
 
 }
 
@@ -28,4 +28,5 @@ header{
   display: grid;
   place-items: center;
   max-width: value(width-container);
+  border: color(bd-elmtPPL);
 }
