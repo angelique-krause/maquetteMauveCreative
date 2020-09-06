@@ -24,7 +24,7 @@ header{
 }
 aside{
   border: 2px solid color(bd-elmtPpl);
-  max-width: 332px;
+  max-width: value(width-aside);
 }
 
 /* CLASSES PRINCIPALES */

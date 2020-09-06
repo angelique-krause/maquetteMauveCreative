@@ -1,0 +1,15 @@
+/* scss => css POUR LE ASIDE sidebar */
+.post{
+  display:flex;
+}
+.post-item{
+  border: 2px solid color(bd-elmtSecond);
+  width: 30%;
+  img{
+    max-width: 75%;
+  }
+}
+
+.m-post-item{
+  border: 2px solid color(bd-elmtSecond);
+}

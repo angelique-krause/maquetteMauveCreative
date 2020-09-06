@@ -52,7 +52,7 @@ header {
 
 aside {
   border: 2px solid #27CC81;
-  max-width: 332px;
+  max-width: 33.2rem;
 }
 
 /* CLASSES PRINCIPALES */
@@ -130,6 +130,23 @@ h1 {
 .essaiCouleur {
   font-family: Mulish, sans-serif;
   color: #507CBE;
+}
+
+/* scss => css POUR LE ASIDE sidebar */
+.post {
+  display: flex;
+}
+
+.post-item {
+  border: 2px solid orange;
+  width: 30%;
+}
+.post-item img {
+  max-width: 75%;
+}
+
+.m-post-item {
+  border: 2px solid orange;
 }
 
 /*# sourceMappingURL=main.css.map */
