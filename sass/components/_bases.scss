@@ -22,6 +22,10 @@ header{
   border: 1px solid color(bd-elmtPpl);
 
 }
+aside{
+  border: 2px solid color(bd-elmtPpl);
+  max-width: 332px;
+}
 
 /* CLASSES PRINCIPALES */
 .main-container{
@@ -29,4 +33,10 @@ header{
   place-items: center;
   max-width: value(width-container);
   border: color(bd-elmtPpl);
+}
+
+@media screen and (max-width: 640px) {
+  aside{
+    display: none;
+  }
 }

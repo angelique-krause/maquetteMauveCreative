@@ -50,6 +50,11 @@ header {
   border: 1px solid #27CC81;
 }
 
+aside {
+  border: 2px solid #27CC81;
+  max-width: 332px;
+}
+
 /* CLASSES PRINCIPALES */
 .main-container {
   display: grid;
@@ -58,6 +63,11 @@ header {
   border: #27CC81;
 }
 
+@media screen and (max-width: 640px) {
+  aside {
+    display: none;
+  }
+}
 /* ICI commence le code SCSS pour le HEADER main-header */
 .main-header {
   height: 36rem;
