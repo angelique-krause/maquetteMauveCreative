@@ -1,0 +1,21 @@
+/* ICONNES dans le projet */
+
+  .icon {
+    display: grid;
+    place-items: center;
+    font-family: "Font Awesome 5 Free";
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  .brand{
+    font-family: "Font Awesome 5 Brands";
+  }
+
+  .facebook::before {
+    content: '\f39e';
+    font-size: 1.5em;
+  }

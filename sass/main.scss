@@ -17,6 +17,11 @@
 @import 'components/functions';
 @import 'components/bases';
 
+// Il est possible de LIER également les FONT AWESOME
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css');
+@import 'components/icon';
+
 
 @import 'modules/header';
 @import 'modules/carrousel';

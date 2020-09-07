@@ -2,6 +2,7 @@
 /* +++++++++++++++++++++++++ */
 /* STYLES GENERAUX */
 /* +++++++++++++++++++++++++ */
+/* LES VARIABLES */
 /* IL S'AGIT d'un OBJET et on va donc préfixer à # */
 /*  -- alligator.io/css/minimal-css-reset/  --  */
 /*html {
@@ -11,6 +12,7 @@
   }
   */
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display&family=Vampiro+One&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 *, *:before, *:after {
   box-sizing: border-box;
 }
@@ -30,6 +32,7 @@ img {
   height: auto;
 }
 
+/* les FONCTIONS dans le projet */
 /* BALISES GENERALES */
 html {
   font-size: 62.5%;
@@ -68,6 +71,27 @@ aside {
     display: none;
   }
 }
+/* ICONNES dans le projet */
+.icon {
+  display: grid;
+  place-items: center;
+  font-family: "Font Awesome 5 Free";
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+}
+
+.brand {
+  font-family: "Font Awesome 5 Brands";
+}
+
+.facebook::before {
+  content: "";
+  font-size: 1.5em;
+}
+
 /* ICI commence le code SCSS pour le HEADER main-header */
 .main-header {
   height: 36rem;
