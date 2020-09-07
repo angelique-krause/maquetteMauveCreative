@@ -149,4 +149,9 @@ h1 {
   border: 2px solid orange;
 }
 
+.sidebar h2, .sidebar h3 {
+  font-family: Playfair Display, serif;
+  text-transform: capitalize;
+}
+
 /*# sourceMappingURL=main.css.map */
