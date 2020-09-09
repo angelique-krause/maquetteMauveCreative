@@ -2,8 +2,35 @@
   display: flex;
   width: map-get($values,'width-carroussel');
   height: map-get($values,'height-carroussel');
+  border: 2px solid red;
+
+  background-image: url('../../images/pexels-lisa-fotios-1882410.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+  /* Jeremy a CENTRE la présentation de la MAQUETTE grâce au display: grid et au place-items: center */
+  display: grid;
+  place-items: center;
+}
+.photo{
+  max-width: 10%;
+  height: auto;
 }
 
-.photo1{
+.texte1{
+  h1{
+    font-family: font(title);
+  }
+}
+.rectangle{
 
+  max-width: 35rem;
+  height: 5rem;
+  display: flex;
+  justify-content: space-around;
+
+    p{
+      display: inline;
+    }
 }
