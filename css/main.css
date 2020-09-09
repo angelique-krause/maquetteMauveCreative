@@ -68,7 +68,7 @@ aside {
 .main-container {
   display: grid;
   place-items: center;
-  max-width: 120rem;
+  max-width: 160rem;
   border: #27CC81;
 }
 
@@ -159,7 +159,7 @@ h1 {
 
 .carrousel {
   display: flex;
-  width: 160rem;
+  width: 120rem;
   height: 48rem;
   border: 2px solid red;
   background-image: url("../../images/pexels-lisa-fotios-1882410.jpg");
@@ -188,6 +188,16 @@ h1 {
 }
 .rectangle p {
   display: inline;
+}
+
+.cercle p::before {
+  content: "";
+  border-radius: 50%;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: #27CC81;
+  display: inline-block;
+  margin: 0rem 1rem 0rem 1rem;
 }
 
 .essaiCouleur {

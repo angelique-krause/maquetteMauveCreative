@@ -34,3 +34,13 @@
       display: inline;
     }
 }
+
+.cercle p::before{
+  content: "";
+  border-radius: 50%;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: color(cat3);
+  display: inline-block;
+  margin: 0rem 1rem 0rem 1rem;
+}
