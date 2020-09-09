@@ -117,6 +117,12 @@ h1 {
   color: #fff;
 }
 
+.carrousel {
+  display: flex;
+  width: 160rem;
+  height: 48rem;
+}
+
 .essaiCouleur {
   font-family: Mulish, sans-serif;
   color: #507CBE;
