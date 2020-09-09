@@ -15,13 +15,18 @@ body{
   font-size: 1.4rem;
   font-weight: 400;
 
-
 }
 
 header{
   border: 1px solid color(bd-elmtPpl);
 
 }
+.articles-container{
+  max-width: value(width-articles-container);
+  background-color: rgba(51, 38, 78, 0.4);
+  border: 1px solid color(bd-elmtPpl);
+}
+
 aside{
   border: 2px solid color(bd-elmtPpl);
   max-width: value(width-aside);
