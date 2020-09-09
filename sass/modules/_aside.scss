@@ -19,6 +19,15 @@
   text-transform: capitalize;
 
 }
-.social-profils{
-
+.decoration{
+  display: flex;
 }
+.element{
+  width: 50%;
+  height: 2px;
+  background-color: red;
+  margin-top: 1.4rem;
+  margin-left: 1rem;
+}
+
+
