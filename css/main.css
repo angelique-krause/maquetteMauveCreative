@@ -239,6 +239,10 @@ h1 {
   margin-left: 1rem;
 }
 
+.social-profils {
+  display: flex;
+}
+
 .carrousselencore h2 {
   color: red;
 }
