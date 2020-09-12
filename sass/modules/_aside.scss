@@ -1,18 +1,17 @@
 /* scss => css POUR LE ASIDE sidebar */
 .post{
   display:flex;
+  margin-top: 1rem;
 }
 .post-item{
-  border: 2px solid color(bd-elmtSecond);
+
   width: 30%;
   img{
     max-width: 75%;
   }
 }
 
-.m-post-item{
-  border: 2px solid color(bd-elmtSecond);
-}
+
 
 .sidebar h2, .sidebar h3{
   font-family: font(title);
@@ -21,6 +20,7 @@
 }
 .decoration{
   display: flex;
+  margin-bottom: 1rem;
 }
 .element{
   width: 50%;
@@ -31,6 +31,69 @@
 }
 .social-profils{
   display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+}
+.socialbcolor1{
+  background-color:
+  color(cat4);
+}
+.socialbcolor2{
+  background-color:
+  color(cat2);
+}
+.socialbcolor4{
+  background-color:
+  color(cat5);
+}
+.post-categories{
+  display: flex;
+  margin-bottom: 0.7rem;
+}
+.post-categories-item::before{
+  content: "";
+  border-radius: 50%;
+  height: 0.8rem;
+  width: 0.8rem;
+background-color: white;
+  display: inline-block;
+  margin: 0rem 1rem 0rem 1rem;
+
+}
+.catr1.post-categories-item::before{
+  background-color: color(cat1);
+}
+.catr2.post-categories-item::before{
+  background-color: color(cat2);
+}
+.catr3.post-categories-item::before{
+  background-color: color(cat3);
+}
+.catr4.post-categories-item::before{
+  background-color: color(cat4);
+}
+.catr5.post-categories-item::before{
+  background-color: color(cat5);
+}
+.catr6.post-categories-item::before{
+  background-color: color(cat6);
+}
+.advertising-img{
+  display: flex;
+  justify-content: center;
+
+
+}
+.advertising-img img{
+  max-width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+}
+.advertising, .categories, .socialProfils, .post-sidebar{
+  margin-top: 5rem;
+  margin-left: 1rem;
 }
 
 

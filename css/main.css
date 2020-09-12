@@ -93,8 +93,18 @@ aside {
   font-family: "Font Awesome 5 Brands";
 }
 
+.twitter::before {
+  content: "";
+  font-size: 1.5em;
+}
+
 .facebook::before {
   content: "";
+  font-size: 1.5em;
+}
+
+.instagram::before {
+  content: "";
   font-size: 1.5em;
 }
 
@@ -208,18 +218,14 @@ h1 {
 /* scss => css POUR LE ASIDE sidebar */
 .post {
   display: flex;
+  margin-top: 1rem;
 }
 
 .post-item {
-  border: 2px solid orange;
   width: 30%;
 }
 .post-item img {
   max-width: 75%;
-}
-
-.m-post-item {
-  border: 2px solid orange;
 }
 
 .sidebar h2, .sidebar h3 {
@@ -229,6 +235,7 @@ h1 {
 
 .decoration {
   display: flex;
+  margin-bottom: 1rem;
 }
 
 .element {
@@ -241,6 +248,76 @@ h1 {
 
 .social-profils {
   display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.socialbcolor1 {
+  background-color: #38C4D1;
+}
+
+.socialbcolor2 {
+  background-color: #1E88E5;
+}
+
+.socialbcolor4 {
+  background-color: #E91E63;
+}
+
+.post-categories {
+  display: flex;
+  margin-bottom: 0.7rem;
+}
+
+.post-categories-item::before {
+  content: "";
+  border-radius: 50%;
+  height: 0.8rem;
+  width: 0.8rem;
+  background-color: white;
+  display: inline-block;
+  margin: 0rem 1rem 0rem 1rem;
+}
+
+.catr1.post-categories-item::before {
+  background-color: #673AB7;
+}
+
+.catr2.post-categories-item::before {
+  background-color: #1E88E5;
+}
+
+.catr3.post-categories-item::before {
+  background-color: #27CC81;
+}
+
+.catr4.post-categories-item::before {
+  background-color: #38C4D1;
+}
+
+.catr5.post-categories-item::before {
+  background-color: #E91E63;
+}
+
+.catr6.post-categories-item::before {
+  background-color: #413261;
+}
+
+.advertising-img {
+  display: flex;
+  justify-content: center;
+}
+
+.advertising-img img {
+  max-width: 80%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.advertising, .categories, .socialProfils, .post-sidebar {
+  margin-top: 5rem;
+  margin-left: 1rem;
 }
 
 .carrousselencore h2 {

@@ -15,7 +15,16 @@
     font-family: "Font Awesome 5 Brands";
   }
 
+
+  .twitter::before {
+    content: '\f099';
+    font-size: 1.5em;
+  }
   .facebook::before {
     content: '\f39e';
+    font-size: 1.5em;
+  }
+  .instagram::before {
+    content: '\f16d';
     font-size: 1.5em;
   }
