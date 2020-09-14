@@ -3,8 +3,9 @@
 .main-header{
 
   height: value(hight-header);
-  background-color: color(bg-elmt1);
+  background-color: color(bg-main);
   border: 3px solid color(bd-elmtPpl);
+  width: 100%;
 }
 //première DIV
 .headerLink{

@@ -125,8 +125,9 @@ aside {
 /* ICI commence le code SCSS pour le HEADER main-header */
 .main-header {
   height: 36rem;
-  background-color: gray;
+  background-color: #33264E;
   border: 3px solid #27CC81;
+  width: 100%;
 }
 
 .headerLink {
