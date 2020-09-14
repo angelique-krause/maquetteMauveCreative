@@ -52,24 +52,30 @@ body {
 aside {
   border: 2px solid #27CC81;
   max-width: 33.2rem;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
 /* CLASSES PRINCIPALES */
 .main-container {
-  display: grid;
-  place-items: center;
   max-width: 160rem;
   border: 1px solid #27CC81;
+  margin-top: 1rem;
 }
 
 .flex {
   display: flex;
+  justify-content: space-between;
+  border: 1px solid palevioletred;
 }
 
 .articles-container {
-  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  width: 80rem;
   background-color: rgba(51, 38, 78, 0.4);
   border: 1px solid orange;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 640px) {

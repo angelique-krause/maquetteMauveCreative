@@ -21,22 +21,29 @@ body{
 aside{
   border: 2px solid color(bd-elmtPpl);
   max-width: value(width-aside);
+  margin-left: 2rem;
+  margin-top: 1rem
 }
 
 /* CLASSES PRINCIPALES */
 .main-container{
-  display: grid;
-  place-items: center;
+
   max-width: value(width-container);
   border: 1px solid color(bd-elmtPpl);
+  margin-top: 1rem;
 }
 .flex{
   display: flex;
+  justify-content: space-between;
+  border: 1px solid palevioletred;
 }
 .articles-container{
-  max-width: value(width-articles-container);
+  display: flex;
+  flex-direction: column;
+  width: value(width-articles-container);
   background-color: rgba(51, 38, 78, 0.4);
   border: 1px solid color(bd-elmtSecond);
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 640px) {
