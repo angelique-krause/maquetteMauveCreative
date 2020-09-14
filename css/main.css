@@ -49,12 +49,6 @@ body {
   font-weight: 400;
 }
 
-.articles-container {
-  max-width: 80rem;
-  background-color: rgba(51, 38, 78, 0.4);
-  border: 1px solid #27CC81;
-}
-
 aside {
   border: 2px solid #27CC81;
   max-width: 33.2rem;
@@ -66,6 +60,16 @@ aside {
   place-items: center;
   max-width: 160rem;
   border: 1px solid #27CC81;
+}
+
+.flex {
+  display: flex;
+}
+
+.articles-container {
+  max-width: 80rem;
+  background-color: rgba(51, 38, 78, 0.4);
+  border: 1px solid orange;
 }
 
 @media screen and (max-width: 640px) {

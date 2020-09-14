@@ -17,11 +17,6 @@ body{
 
 }
 
-.articles-container{
-  max-width: value(width-articles-container);
-  background-color: rgba(51, 38, 78, 0.4);
-  border: 1px solid color(bd-elmtPpl);
-}
 
 aside{
   border: 2px solid color(bd-elmtPpl);
@@ -34,6 +29,14 @@ aside{
   place-items: center;
   max-width: value(width-container);
   border: 1px solid color(bd-elmtPpl);
+}
+.flex{
+  display: flex;
+}
+.articles-container{
+  max-width: value(width-articles-container);
+  background-color: rgba(51, 38, 78, 0.4);
+  border: 1px solid color(bd-elmtSecond);
 }
 
 @media screen and (max-width: 640px) {
