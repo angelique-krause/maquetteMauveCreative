@@ -65,7 +65,7 @@ aside {
   display: grid;
   place-items: center;
   max-width: 160rem;
-  border: #27CC81;
+  border: 1px solid #27CC81;
 }
 
 @media screen and (max-width: 640px) {
@@ -124,17 +124,15 @@ aside {
 
 /* ICI commence le code SCSS pour le HEADER main-header */
 .main-header {
-  height: 36rem;
+  /*height: value(hight-header); */
   background-color: #33264E;
-  border: 3px solid #27CC81;
   width: 100%;
 }
 
 .headerLink {
   display: flex;
   justify-content: space-between;
-  border: 1px solid yellow;
-  height: 65%;
+  /* height: 65%; */
   margin-top: 2rem;
   padding-top: 1rem;
 }
@@ -145,13 +143,10 @@ h1 {
   background-color: inherit;
 }
 
-.icon {
-  max-height: 14%;
-}
-
 .social {
   max-width: 30%;
   display: flex;
+  margin-left: 1rem;
 }
 
 .title {
@@ -161,21 +156,25 @@ h1 {
 .reseach {
   text-align: right;
   max-width: 30%;
+  margin-right: 1rem;
 }
 
 .menu-ppl {
-  max-height: 40%;
+  /*  max-height: 40%; */
   margin-top: 5rem;
-  border-bottom: 5px solid white;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid white;
 }
 
 .menu-ppl nav ul {
   display: flex;
   justify-content: center;
+  margin-left: 3rem;
 }
 
 .menu-ppl nav ul li {
-  padding: 1rem;
+  padding: 2rem;
+  text-transform: capitalize;
 }
 
 .menu-ppl nav ul li a {

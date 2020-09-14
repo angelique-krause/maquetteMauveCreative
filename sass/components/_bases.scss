@@ -33,7 +33,7 @@ aside{
   display: grid;
   place-items: center;
   max-width: value(width-container);
-  border: color(bd-elmtPpl);
+  border: 1px solid color(bd-elmtPpl);
 }
 
 @media screen and (max-width: 640px) {

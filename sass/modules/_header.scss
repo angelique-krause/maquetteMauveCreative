@@ -1,18 +1,15 @@
 /* ICI commence le code SCSS pour le HEADER main-header */
 
 .main-header{
-
-  height: value(hight-header);
+  /*height: value(hight-header); */
   background-color: color(bg-main);
-  border: 3px solid color(bd-elmtPpl);
   width: 100%;
 }
 //première DIV
 .headerLink{
   display: flex;
   justify-content: space-between;
-  border: 1px solid yellow;
-  height: 65%;
+ /* height: 65%; */
   margin-top: 2rem;
   padding-top: 1rem;
 }
@@ -21,12 +18,11 @@ h1{
   color: inherit;
   background-color: inherit;
 }
-.icon{
-  max-height: 14%;
-}
+
 .social{
   max-width: 30%;
   display: flex;
+  margin-left: 1rem;
 }
 .title{
   max-width: 30%;
@@ -34,20 +30,25 @@ h1{
 .reseach{
   text-align: right;
   max-width: 30%;
+  margin-right: 1rem;
 }
 // deuxième DIV
 .menu-ppl{
-  max-height: 40%;
+/*  max-height: 40%; */
   margin-top: 5rem;
-  border-bottom: 5px solid white;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid white;
+
 }
 .menu-ppl nav ul{
   display:flex;
   justify-content: center;
+  margin-left: 3rem;
 
 }
 .menu-ppl nav ul li{
-  padding: 1rem;
+  padding: 2rem;
+  text-transform: capitalize;
 
 }
 .menu-ppl nav ul li a{
