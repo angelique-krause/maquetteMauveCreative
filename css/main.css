@@ -49,10 +49,6 @@ body {
   font-weight: 400;
 }
 
-header {
-  border: 1px solid #27CC81;
-}
-
 .articles-container {
   max-width: 80rem;
   background-color: rgba(51, 38, 78, 0.4);
@@ -93,19 +89,37 @@ aside {
   font-family: "Font Awesome 5 Brands";
 }
 
-.twitter::before {
-  content: "";
+.facebook::before {
+  content: "";
   font-size: 1.5em;
 }
 
-.facebook::before {
-  content: "";
+.twitter::before {
+  content: "";
   font-size: 1.5em;
 }
 
 .instagram::before {
   content: "";
   font-size: 1.5em;
+}
+
+.pinterest::before {
+  content: "";
+  font-size: 1.5em;
+}
+
+.search::before {
+  content: "";
+  font-size: 1.5rem;
+}
+
+.rosa {
+  border-radius: 50%;
+  height: 3rem;
+  width: 3rem;
+  background-color: pink;
+  margin: 0rem 0.8rem 0rem 0.8rem;
 }
 
 /* ICI commence le code SCSS pour le HEADER main-header */
@@ -136,6 +150,7 @@ h1 {
 
 .social {
   max-width: 30%;
+  display: flex;
 }
 
 .title {

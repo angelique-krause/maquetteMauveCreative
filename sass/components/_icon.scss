@@ -16,15 +16,34 @@
   }
 
 
-  .twitter::before {
-    content: '\f099';
-    font-size: 1.5em;
-  }
+
   .facebook::before {
     content: '\f39e';
+    font-size: 1.5em;
+  }
+  .twitter::before {
+    content: '\f099';
     font-size: 1.5em;
   }
   .instagram::before {
     content: '\f16d';
     font-size: 1.5em;
+  }
+  .pinterest::before{
+    content: '\f231';
+    font-size: 1.5em;
+  }
+
+  .search::before{
+    content: '\f002';
+    font-size: 1.5rem;
+  }
+
+  .rosa{
+    border-radius: 50%;
+    height:3rem;
+    width: 3rem;
+    background-color: pink;
+    margin: 0rem 0.8rem 0rem 0.8rem;
+
   }
