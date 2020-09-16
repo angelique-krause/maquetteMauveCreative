@@ -14,25 +14,32 @@
   place-items: center;
 }
 .photo{
-  max-width: 10%;
-  height: auto;
+  max-width:10%;
+  height: 1rem;
+  border-radius: 100%;
 }
 
-.texte1{
-  h1{
+h1{
     font-family: font(title);
   }
-}
-.rectangle{
+
+  .rectangle{
 
   max-width: 35rem;
   height: 5rem;
   display: flex;
   justify-content: space-around;
-
+  
     p{
       display: inline;
     }
+}
+
+.texte3{
+color:white;
+}
+button{
+  background: rgb(255, 0, 157);
 }
 
 .cercle p::before{
