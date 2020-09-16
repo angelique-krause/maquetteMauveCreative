@@ -197,7 +197,7 @@ h1 {
   width: 120rem;
   height: 48rem;
   border: 2px solid red;
-  background-image: url("../../images/pexels-lisa-fotios-1882410.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../images/pexels-lisa-fotios-1882410.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -246,12 +246,16 @@ button {
 
 .main-article {
   display: flex;
-  justify-content: space-between;
   border: 3px solid yellow;
   margin-top: 1rem;
   margin-left: 1rem;
-  width: 80%;
-  height: 5rem;
+  height: 20rem;
+}
+
+.text-article {
+  margin-left: 1rem;
+  border: 2px solid green;
+  width: 100%;
 }
 
 .essaiCouleur {
