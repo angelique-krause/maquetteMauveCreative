@@ -14,8 +14,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish&family=Playfair+Display&family=Vampiro+One&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body, h1, h2, h3, h4, h5, h6, p, ol, ul {
@@ -41,7 +40,6 @@ html {
 
 body {
   /* Jeremy a CENTRE la présentation de la MAQUETTE grâce au display: grid et au place-items: center */
-  display: -ms-grid;
   display: grid;
   place-items: center;
   background-color: #33264E;
@@ -65,23 +63,14 @@ aside {
 }
 
 .flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   border: 1px solid palevioletred;
 }
 
 .articles-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 80rem;
   background-color: rgba(51, 38, 78, 0.4);
   border: 1px solid orange;
@@ -94,10 +83,8 @@ aside {
     display: none;
   }
 }
-
 /* ICONNES dans le projet */
 .icon {
-  display: -ms-grid;
   display: grid;
   place-items: center;
   font-family: "Font Awesome 5 Free";
@@ -113,27 +100,27 @@ aside {
 }
 
 .facebook::before {
-  content: '\f39e';
+  content: "";
   font-size: 1.5em;
 }
 
 .twitter::before {
-  content: '\f099';
+  content: "";
   font-size: 1.5em;
 }
 
 .instagram::before {
-  content: '\f16d';
+  content: "";
   font-size: 1.5em;
 }
 
 .pinterest::before {
-  content: '\f231';
+  content: "";
   font-size: 1.5em;
 }
 
 .search::before {
-  content: '\f002';
+  content: "";
   font-size: 1.5rem;
 }
 
@@ -153,12 +140,8 @@ aside {
 }
 
 .headerLink {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   /* height: 65%; */
   margin-top: 2rem;
   padding-top: 1rem;
@@ -172,8 +155,6 @@ h1 {
 
 .social {
   max-width: 30%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-left: 1rem;
 }
@@ -196,12 +177,8 @@ h1 {
 }
 
 .menu-ppl nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-left: 3rem;
 }
 
@@ -216,18 +193,15 @@ h1 {
 }
 
 .carrousel {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   width: 120rem;
   height: 48rem;
   border: 2px solid red;
-  background-image: url("../../images/pexels-lisa-fotios-1882410.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../images/pexels-lisa-fotios-1882410.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   /* Jeremy a CENTRE la présentation de la MAQUETTE grâce au display: grid et au place-items: center */
-  display: -ms-grid;
   display: grid;
   place-items: center;
 }
@@ -244,13 +218,9 @@ h1 {
 .rectangle {
   max-width: 35rem;
   height: 5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
-
 .rectangle p {
   display: inline;
 }
@@ -266,17 +236,17 @@ h1 {
 }
 
 .main-article {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   border: 3px solid yellow;
   margin-top: 1rem;
   margin-left: 1rem;
-  width: 80%;
-  height: 5rem;
+  height: 20rem;
+}
+
+.text-article {
+  margin-left: 1rem;
+  border: 2px solid green;
+  width: 100%;
 }
 
 .essaiCouleur {
@@ -286,8 +256,6 @@ h1 {
 
 /* scss => css POUR LE ASIDE sidebar */
 .post {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-top: 1rem;
 }
@@ -295,7 +263,6 @@ h1 {
 .post-item {
   width: 30%;
 }
-
 .post-item img {
   max-width: 75%;
 }
@@ -306,8 +273,6 @@ h1 {
 }
 
 .decoration {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 1rem;
 }
@@ -321,12 +286,8 @@ h1 {
 }
 
 .social-profils {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   margin: 1rem;
   padding: 1rem;
 }
@@ -344,8 +305,6 @@ h1 {
 }
 
 .post-categories {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   margin-bottom: 0.7rem;
 }
@@ -385,12 +344,8 @@ h1 {
 }
 
 .advertising-img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .advertising-img img {
@@ -407,4 +362,5 @@ h1 {
 .carrousselencore h2 {
   color: red;
 }
+
 /*# sourceMappingURL=main.css.map */
